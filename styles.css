@@ -83,6 +83,17 @@ select, option {
 .form-text {
     border-radius: 10px;
     width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#comments {
+    resize: none;
+}
+
+/* The Id text is for the JavaScript code when typed */
+
+#text {
     margin-bottom: 1rem;
 }
 

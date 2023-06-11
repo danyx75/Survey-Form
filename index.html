@@ -27,7 +27,7 @@
                 <input type="number" id="age" min="13" max="155" placeholder="Age" class="box">
             </label>
             <label>Which option best describes your current role?
-                <select id="dropdown" class="box">
+                <select id="dropdown" class="box" required>
                     <option value="">Select current role</option>
                     <option value="1">Full time student</option>
                     <option value="2">Full time job</option>
@@ -80,11 +80,11 @@
                     value="additional-courses" class="space-input">Additional Courses
                 </label>
                 <label>Any comments or suggestions?</label>
-                    <textarea name="comments" cols="30" rows="3"
-                    placeholder="Enter your comment here..." class="form-text">
-                    </textarea>
+                <textarea placeholder="start typing" id="comments" name="comments" rows="5" cols="33" class="form-text" autofocus></textarea>
+                <p id="text"></p>
                 <input type="submit" id="submit" value="Submit">
         </form>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
